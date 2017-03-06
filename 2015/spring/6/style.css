@@ -1,0 +1,192 @@
+/*div:nth-child(1){
+    width: 960px;
+    background-color: red;
+    margin: auto;
+}
+
+div:nth-child(2){
+    text-align: center;
+}
+
+div:nth-child(2) div{
+    display: inline-block;
+    margin: 10px 0 0 0;
+    width: 960px;
+    background-color: red;
+}
+*/
+.container{
+    margin-top: 10px;
+}
+
+.main{
+    
+    float: left;
+    width: 100% !important;
+}
+
+.main-wrap{
+    margin-left: 200px !important;
+    background-color: blue !important;
+    width: auto !important;
+}
+
+.sub{
+    float: left;
+    width: 200px;
+    margin-left: -100%;
+    background-color: indigo;
+}
+
+.test{
+    float: left;
+    height: 50px;
+}
+
+.next{
+    overflow: auto;
+}
+
+.learn{
+    float: left;
+    width: 50px;
+    height: 50px;
+    background-color: greenyellow;
+}
+
+.outer{
+    margin-top: 50px;
+    width: 300px;
+    height: 300px;
+    background-color: blueviolet;
+}
+
+.o-inner{
+    float: left;
+    width: calc(100% - 4em) !important;
+    height: 200px !important;
+    background-color: goldenrod !important;
+    margin: 2em 0px 0px 2em !important;
+}
+
+
+span { float: left; width: 5em; height: 5em; border: solid blue; overflow: hidden}
+
+.one-box{
+    margin-right: -20px;
+    float: left;
+}
+
+.two-box{
+    float: left;
+    margin-right: -20px;
+}
+
+.main-r{
+    float: left;
+    width: calc(100% - 200px);
+    background-color: forestgreen;
+}
+
+.work{
+    width: 200px;
+    margin-top: 0;
+    float: left;
+}
+
+.contain {
+	position: relative;
+	z-index: 1;
+    clear: left;
+}
+.contain .aside {
+	float: left;
+	width: 200px;
+	min-height: 200px;
+	background: red;
+}
+.contain .mai {
+	zoom: 1;
+	min-height: 200px;
+	background: deepskyblue;
+}
+
+#maincol{
+    clear: both;
+    position: relative;
+    margin: 0;
+    padding: 10px;
+    border: 1px dashed greenyellow;
+    min-width: 420px;
+    overflow: hidden;
+}
+
+#leftcol{
+    position: relative;
+    left: -10px;
+    top: -10px;
+    width: 200px;
+    float: left;
+    padding: 10px;
+    background-color: grey;
+    margin-bottom: -10px;
+    z-index: 100;
+}
+
+#rightcol{
+    position: relative;
+    top: -10px;
+    right: -10px;
+    width: 200px;
+    float: right;
+    padding: 10px;
+    background-color: indigo;
+    z-index: 99;
+}
+
+#center{
+    position: relative;
+    padding: 0 220px;   
+}
+
+#leftcol, #rightcol, #center{
+    padding-bottom: 20010px;
+    margin-bottom: -20010px;
+}
+
+.show1, .show2{
+    float: left;
+    width: 200px;
+}
+.show{
+    overflow: hidden;
+}
+.show1{
+    background-color: firebrick;
+    width: 100%;
+}
+
+.show2{
+    background-color: goldenrod;
+    margin-left: -100%;
+}
+
+.normal{
+    overflow: auto;
+}
+
+.normal1, .normal2{
+    width: 200px;
+    display: inline-block;
+}
+
+
+.normal1{
+    background-color: blanchedalmond;
+    width: 100%;
+}
+
+.normal2{
+    background-color: magenta;
+    margin-left: -100%;
+}
